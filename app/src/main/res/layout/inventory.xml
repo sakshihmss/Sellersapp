@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/buttongrocery"
+        android:layout_width="fill_parent"
+        android:layout_height="120px"
+        android:text="Grocery"
+        android:onClick="signIn"
+        android:fontFamily="monospace"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonstationary"
+        android:layout_width="fill_parent"
+        android:layout_height="120px"
+        android:text="Stationary"
+        android:fontFamily="monospace"
+        android:textSize="30sp" />
+
+    <Button
+        android:text="Cosmetics"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:id="@+id/buttoncosmetics"
+        android:fontFamily="monospace"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
